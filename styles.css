@@ -1,0 +1,84 @@
+/* body{
+    
+} */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.content {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        /* background-image: url("wts.jpg"); */
+        /* background-color: rgb(46, 45, 45); */
+        /* opacity: 0.5; */
+        /* background-size: cover; */
+        background: linear-gradient(241deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+}
+
+#header {
+    height: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch {
+    text-align: center;
+    border: 10px solid white;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    /* align-items: center; */
+    padding-top: 5%;
+    border-radius: 30px;
+    
+}
+
+
+#display {
+    border: 2px solid white;
+    background-color: white;
+}
+
+
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.buttons button:hover {
+    background-color: brown;
+}
+
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    font-size: 25px;
+    margin: 10px 0;
+}
